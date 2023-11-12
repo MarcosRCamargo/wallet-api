@@ -12,3 +12,21 @@ services:
       - 3000:3000
     volumes:
       - .:/usr/src/app
+    networks:
+      - walletapi-network
+  mysql_data_base:
+    image: mysql:8
+    container_name: mysql_data_base
+    restart: always
+    ports:
+      - "3306:3306"
+    volumes:
+      - /var/lib/mysql
+    env_file:
+       - src/app/.env # Atualize o caminho do arquivo .env, se necessário
+    networks:
+      - walletapi-network
+networks:
+  walletapi-network:
+    driver: bridge
+

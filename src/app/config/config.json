@@ -1,0 +1,24 @@
+{
+    "development": {
+      "username": "user_express",
+      "password": "dcd6027a1cbf5b1d6406c55181e5d7ac8ccf99bf",
+      "database": "user_express",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    },
+    "test": {
+      "username": "user_express",
+      "password": "dcd6027a1cbf5b1d6406c55181e5d7ac8ccf99bf",
+      "database": "user_express",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    },
+    "production": {
+      "username": "user_express",
+      "password": "399a06fd8954ba22b5ae4d41f9aee0610834d1fc",
+      "database": "user_express",
+      "host": "127.0.0.1",
+      "dialect": "mysql"
+    }
+  }
+  
